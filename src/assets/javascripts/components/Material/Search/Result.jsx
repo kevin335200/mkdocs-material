@@ -195,6 +195,7 @@ export default class Result {
     /* Perform search on index and group sections by document */
     let sta = [],
       Rsize;
+    // TODO: Replace Search API
     const result = fetch(`https://search.oi-wiki.org:8443/?s=${Q}`, {
       credentials: "same-origin"
     })
